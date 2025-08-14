@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDLC</title>
+    <link rel="icon" type="image/x-icon" href="Images/Icons/favicon.ico"  />
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Profile.html">Profile</a>
+            <a href="MeetTheTeam.html">Meet The Team</a>
+            <a href="SDLC.html" class="active">SDLC</a>
+            <a href="MyTeam.html">MyTeam</a>
+            <a href="Communication.html">Communication</a>
+        </nav>
+    </header>
+    <section class="intro-section">
+        <h1 class="intro-title">Software Development Life Cycle (SDLC)</h1>
+        <p class="intro-text">
+            The Software Development Life Cycle (SDLC) is a structured process used for developing software applications. Below is how we typically deliver software here at Sainsbury's Tech. For each stage of the life cycle, I've listed the definition and what happens (aka what my team try to follow), inputs, outputs, and who is typically involved.
+        </p>
+    </section>
+
+    <section>
+        <h2><span class="stage-title">Planning 🧭</span></h2>
+        <p>This is where you figure out what the project is all about - what you're trying to achieve, what problems you're solving, and roughly how you'll get there. It's also where you think about who needs to be involved, what tools or resources you'll need, any deadlines, and any risks you might face along the way.</p>
+        <ul>
+            <li><strong>Inputs:</strong> Business goals, early user feedback, high-level ideas, market/competitor insight.</li>
+            <li><strong>Outputs:</strong> Roadmap, initial scope and risks, high-level timeline, rough sizing/ballpark estimates (guesstimates).</li>
+            <li><strong>Who is involved:</strong> Product Manager (PM), Delivery/Scrum Master (we don't do this, but, my team assign sprint captains), Engineers (for insight, how doable is this?), UX (User Experience) Designer, BA (Business Analyst, although my team currently doesn't have one as of yet), key stakeholders.</li>
+        </ul>
+
+    </section>
+
+    <section>
+        <h2><span class="stage-title">Requirements</span></h2>
+        <p>Here, you pin down exactly what the system or product needs to do. This could be features, behaviours, or even rules the system has to follow. Basically, you're turning the “what” from the planning stage into a clear to-do list that everyone agrees on.</p>
+        <ul>
+            <li><p><strong>Inputs:</strong> Planning outcomes, stakeholder meetings with EM (Engineering Manager) and PM, analytics, existing system constraints.</p></li>
+            <li><p><strong>Outputs:</strong> Prioritised backlog (stories & acceptance criterias), definition of ready, updated release plan, refined risks.</p></li>
+            <li><p><strong>Who is involved:</strong> PM, EM, BA, UX Designer, Engineers, QA (Quality Assurance) Testers, Architecture/Security where needed.</p></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2><span class="stage-title">Design 🎨</span></h2>
+        <p>This stage is creating the blueprint before building something. You decide how everything will fit together - from the layout and user experience to the technical details like databases and APIs.</p>
+        <ul>
+            <li><p><strong>Inputs:</strong> User stories & acceptance criterias, design system, technical standards, spikes/prototypes.</p></li>
+            <li><p><strong>Outputs:</strong> UX artefacts (flows/wireframes), API specs, architecture notes, definition of done, test strategy outline.</p></li>
+            <li><p><strong>Who is involved:</strong> UX/UI Designers, Engineers, Senior Engineers, QA, PM/BA for validation.</p></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2><span class="stage-title">Development</span></h2>
+        <p>This is the actual building stage, where you write the code and bring the design to life. It's usually done in smaller chunks (aka sprints) so you can test and adjust as you go along.</p>
+        <ul>
+            <li><p><strong>Inputs:</strong> Design specifications, wireframes, prototypes, architecture diagrams, feature flags.</p></li>
+            <li><p><strong>Outputs:</strong> Working in increments, passing unit tests, code reviews and merged PRs, documentation updates.</p></li>
+            <li><p><strong>Who is involved:</strong> Engineers (all levels), QA Testers, EM/PM/BA for oversight.</p></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2><span class="stage-title">Testing ✅</span></h2>
+        <p>Before anything goes live, you want to check everything works as intended. This means looking for bugs, making sure everything runs smoothly, and confirming that it meets the requirements set in earlier stages.</p>
+        <ul>
+            <li><p><strong>Inputs:</strong> Completed code, test cases, user stories, acceptance criteria.</p></li>
+            <li><p><strong>Outputs:</strong> Test results, bug reports, feedback for developers, sign-off for deployment (acceptance).</p></li>
+            <li><p><strong>Who is involved:</strong> QA Testers, Engineers (for fixing bugs), EM/PM/BA for validation.</p></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2><span class="stage-title">Deployment</span></h2>
+        <p>This is when you release the work so people can actually use it. Sometimes it's done in stages, and you'll often keep a close eye on things straight after in case any problems pop up.</p>
+        <ul>
+            <li><p><strong>Inputs:</strong> Approved code, test results, deployment plan, rollback procedures (just in case).</p></li>
+            <li><p><strong>Outputs:</strong> Live system, deployment logs, monitoring setup, user documentation.</p></li>
+            <li><p><strong>Who is involved:</strong> Engineers, QA Testers, EM/PM for communication.</p></li>
+    </section>
+
+    <section>
+        <h2><span class="stage-title">Maintenance</span></h2>
+        <p>Once it's live, you still need to look after it. That could mean fixing bugs, updating it with new features, or making improvements to keep it running well.</p>
+        <ul>
+            <li><p><strong>Inputs:</strong> Monitoring/alerting, customer feedback, incident reports, security alerts, analytics.</p></li>
+            <li><p><strong>Outputs:</strong> Hotfixes/patches, improve system performance, update documentation, learning for future sprints.</p></li>
+            <li><p><strong>Who is involved:</strong> Engineers (on-call if and when needed), QA Testers, EM/PM for support.</p></li>
+        </ul>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <span class="footer-brand">Sainsbury's &mdash; Just IT</span>
+            <div class="footer-right">
+                <a href="mailto:book.seenonmuang@sainsburys.co.uk" target="_blank" aria-label="Email">
+                    <img src="Images/Icons/envelope-solid.svg" alt="Email" class="footer-icon">
+                </a>
+                <a href="https://github.com/PunyGods6" target="_blank" aria-label="GitHub">
+                    <img src="Images/Icons/github-brands.svg" alt="GitHub" class="footer-icon">
+                </a>
+                <a href="https://www.linkedin.com/in/book-seenonmuang-437821222/" target="_blank" aria-label="LinkedIn">
+                    <img src="Images/Icons/linkedin-brands.svg" alt="LinkedIn" class="footer-icon">
+                </a>
+                <span class="footer-copyright">&copy; 2025 Book Seenonmuang</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
